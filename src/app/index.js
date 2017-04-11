@@ -6,16 +6,20 @@ import Home from './components/Home';
 
 class App extends React.Component {
     render() {
+        var data = {
+            company: 'Spree',
+            categories: ['Men', 'Women', 'Kids', 'Misc']
+        };
         return (
             <div className="container">
                 <div className="row">
                     <div className="col-xs-10 col xs-offset-1">
-                        <Header />
+                        <Header title="Welcome to React.js Basics" />
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-xs-10 col xs-offset-1">
-                        <Home />
+                        <Home data={data} />
                     </div>
                 </div>
             </div>
