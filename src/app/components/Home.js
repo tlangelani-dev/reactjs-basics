@@ -4,7 +4,8 @@ class Home extends React.Component {
     render() {
         return (
             <div id="home">
-                <p>Home Component!</p>
+                <p>Home Component</p>
+                <pre>{ 100 * 4 * 12 }</pre>
             </div>
         );
     }

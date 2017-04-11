@@ -1,1 +1,3 @@
-# YouTube (Mindspace) - ReactJS Basics
+### YouTube (Mindspace) - ReactJS Basics
+
+`npm start`
