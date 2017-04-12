@@ -18,4 +18,4 @@ Home.propTypes = {
     data: PropTypes.object
 };
 
-module.exports = Home;
+export default Home;
